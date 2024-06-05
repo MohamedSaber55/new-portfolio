@@ -1817,3 +1817,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+.company-link{
+  text-decoration: underline;
+  color: aliceblue;
+}
+.flex{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
