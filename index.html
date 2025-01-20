@@ -1,336 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saber's Personal Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saber's Personal Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--- #SIDEBAR -->
+  <main>
+    <!--- #SIDEBAR -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/my-avatar.png"
-              alt="Mohamed Saber"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mohamed Saber" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Mohamed Saber">Mohamed Saber</h1>
+        <div class="info-content">
+          <h1 class="name" title="Mohamed Saber">Mohamed Saber</h1>
 
-            <p class="title">Full Stack developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Full Stack developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a
-                  href="mailto:mohammed.saber.abdeltawab@gmail.com"
-                  class="contact-link"
-                  >mohammed.saber.abdeltawab@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:mohammed.saber.abdeltawab@gmail.com"
+                class="contact-link">mohammed.saber.abdeltawab@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+201210529969" class="contact-link"
-                  >+201210529969</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+201210529969" class="contact-link">+201210529969</a>
+            </div>
+          </li>
 
-                <time datetime="1982-06-23">December 11, 2001</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="1982-06-23">December 11, 2001</time>
+            </div>
+          </li>
 
-                <address>Beni Suef, Egypt</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.facebook.com/mo7amedsaber5050/"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+              <address>Beni Suef, Egypt</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a
-                href="https://github.com/MohamedSaber55"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a
-                href="https://api.whatsapp.com/send?phone=+201210529969"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-whatsApp"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/mohamedsaber5050/"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/mo7amedsaber5050/" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://github.com/MohamedSaber55" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://api.whatsapp.com/send?phone=+201210529969" target="_blank" class="social-link">
+              <ion-icon name="logo-whatsApp"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mohamedsaber5050/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" >
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 1024 1024"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
-                  ></path>
-                </svg>
-                <span data-nav-link>About</span>
-              </button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z">
+                </path>
+              </svg>
+              <span data-nav-link>About</span>
+            </button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" >
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 24 24"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3zM5 8V5c0-.805.55-.988 1-1h13v12H5V8z"
-                  ></path>
-                  <path d="M8 6h9v2H8z"></path>
-                </svg>
-                <span data-nav-link>Resume</span>
-              </button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3zM5 8V5c0-.805.55-.988 1-1h13v12H5V8z">
+                </path>
+                <path d="M8 6h9v2H8z"></path>
+              </svg>
+              <span data-nav-link>Resume</span>
+            </button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" >
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 24 24"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="none"
-                    stroke-width="2"
-                    d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z"
-                  ></path>
-                </svg>
-                <span data-nav-link>Portfolio</span>
-              </button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-width="2"
+                  d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z">
+                </path>
+              </svg>
+              <span data-nav-link>Portfolio</span>
+            </button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" >
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 24 24"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"
-                  ></path>
-                  <path d="M7 9h10v2H7zm0 4h7v2H7z"></path>
-                </svg>
-                <span data-nav-link>Contact</span>
-              </button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z">
+                </path>
+                <path d="M7 9h10v2H7zm0 4h7v2H7z"></path>
+              </svg>
+              <span data-nav-link>Contact</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              I'm creative Full Stack developer from Egypt, with 2 years of
-              experience in web development. I enjoy turning complex problems
-              into simple, beautiful designs.
-            </p>
+        <section class="about-text">
+          <p>
+            I'm creative Full Stack developer from Egypt, with 2 years of
+            experience in web development. I enjoy turning complex problems
+            into simple, beautiful designs.
+          </p>
 
-            <p>
-              My job is to build your website so that it is functional and
-              user-friendly but at the same time attractive. Moreover, I add
-              personal touch to your product and make sure that is eye-catching
-              and easy to use. My aim is to bring across your message and
-              identity in the most creative way.
-            </p>
-          </section>
+          <p>
+            My job is to build your website so that it is functional and
+            user-friendly but at the same time attractive. Moreover, I add
+            personal touch to your product and make sure that is eye-catching
+            and easy to use. My aim is to bring across your message and
+            identity in the most creative way.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
 
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
 
-              <!-- <li class="service-item">
+            <!-- <li class="service-item">
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/icon-app.svg"
@@ -349,7 +280,7 @@
                 </div>
               </li> -->
 
-              <!-- <li class="service-item">
+            <!-- <li class="service-item">
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/icon-photo.svg"
@@ -367,181 +298,145 @@
                   </p>
                 </div>
               </li> -->
-            </ul>
-          </section>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials
         -->
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
 
-            <ul class="testimonials-list has-scrollbar">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-4.png"
-                      alt="Mohamed Ali"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Mohamed Ali
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Mohamed was hired to create a corporate identity. We were
-                      very pleased with the work done. He has a lot of
-                      experience and is very concerned about the needs of
-                      client.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-1.png"
-                      alt="Khaled Mohamed"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Khaled Mohamed
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Mohamed was hired to create a corporate identity. We were
-                      very pleased with the work done. He has a lot of
-                      experience and is very concerned about the needs of
-                      client.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-2.png"
-                      alt="Aya Mahmoud"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Aya Mahmoud
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Mohamed was hired to create a corporate identity. We were
-                      very pleased with the work done. He has a lot of
-                      experience and is very concerned about the needs of
-                      client.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-1.png"
-                      alt="Hamza Abd-Elrahman"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Hamza Abd-Elrahman
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Mohamed was hired to create a corporate identity. We were
-                      very pleased with the work done. He has a lot of
-                      experience and is very concerned about the needs of
-                      client.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <!--
-          - testimonials modal
-        -->
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Khaled Mohamed"
-                    width="80"
-                    data-modal-img
-                  />
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Mohamed Ali" width="60" data-testimonials-avatar />
                 </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
-              </div>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Mohamed Ali
+                </h4>
 
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Khaled Mohamed</h4>
-
-                <time datetime="2023-08-10">10 August, 2023</time>
-
-                <div data-modal-text>
+                <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Mohamed was hired to create a corporate identity. We were
-                    very pleased with the work done. He has a lot of experience
-                    and is very concerned about the needs of client.
+                    very pleased with the work done. He has a lot of
+                    experience and is very concerned about the needs of
+                    client.
                   </p>
                 </div>
               </div>
-            </section>
-          </div>
+            </li>
 
-          <!--
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Khaled Mohamed" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Khaled Mohamed
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mohamed was hired to create a corporate identity. We were
+                    very pleased with the work done. He has a lot of
+                    experience and is very concerned about the needs of
+                    client.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Aya Mahmoud" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Aya Mahmoud
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mohamed was hired to create a corporate identity. We were
+                    very pleased with the work done. He has a lot of
+                    experience and is very concerned about the needs of
+                    client.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Hamza Abd-Elrahman" width="60"
+                    data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Hamza Abd-Elrahman
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mohamed was hired to create a corporate identity. We were
+                    very pleased with the work done. He has a lot of
+                    experience and is very concerned about the needs of
+                    client.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Khaled Mohamed" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Khaled Mohamed</h4>
+
+              <time datetime="2023-08-10">10 August, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  Mohamed was hired to create a corporate identity. We were
+                  very pleased with the work done. He has a lot of experience
+                  and is very concerned about the needs of client.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
           - clients
         -->
 
-          <!-- <section class="clients">
+        <!-- <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
 
@@ -586,973 +481,669 @@
           </ul>
 
         </section> -->
-        </article>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">ITI Diploma</h4>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <span>2023 — 2024</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ITI Diploma</h4>
 
-                <p class="timeline-text">
-                  ITI 3 months diploma in React.JS form june 2023 to september
-                  2023
-                </p>
-              </li>
+              <span>2023 — 2024</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Route academy</h4>
+              <p class="timeline-text">
+                ITI 3 months diploma in React.JS form june 2023 to september
+                2023
+              </p>
+            </li>
 
-                <span>2022 — 2023</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Route academy</h4>
 
-                <p class="timeline-text">
-                  One year full stack diploma by ( React.JS, Next.JS, Node.JS )
-                </p>
-              </li>
+              <span>2022 — 2023</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Faculty of Computers & Artificial Intelligence
-                </h4>
+              <p class="timeline-text">
+                One year full stack diploma by ( React.JS, Next.JS, Node.JS )
+              </p>
+            </li>
 
-                <span>2020 — 2024</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Faculty of Computers & Artificial Intelligence
+              </h4>
 
-                <p class="timeline-text">
-                  followed my passion and enrolled in collage to delve deeper
-                  into the world of computer science and majored in the (IT)
-                  department
-                </p>
-              </li>
-            </ol>
-          </section>
+              <span>2020 — 2024</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">
+                followed my passion and enrolled in collage to delve deeper
+                into the world of computer science and majored in the (IT)
+                department
+              </p>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Experience</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Freelancer</h4>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-                <span>2023 — now</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelancer</h4>
 
-                <p class="timeline-text">
-                  Full Stack Freelancer at Mostaqel & UpWork
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Full-Stack Developer</h4>
+              <span>2023 — now</span>
 
-                <span>Jan-2024 — Jul-2024</span>
+              <p class="timeline-text">
+                Full Stack Freelancer at Mostaqel & UpWork
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full-Stack Developer</h4>
 
-                <p class="timeline-text flex">
-                  Full Stack Developer at  <span><a class="company-link" href="https://aitech.net.au/" target="_blank">AiTech</a></span>
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Front-End Developer</h4>
+              <span>Jan-2024 — Jul-2024</span>
 
-                <!-- <span>Aug-2024 — Sep-2024</span> -->
-                <span>Aug-2024 — Present</span>
+              <p class="timeline-text flex">
+                Full Stack Developer at <span><a class="company-link" href="https://aitech.net.au/"
+                    target="_blank">AiTech</a></span>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Front-End Developer</h4>
 
-                <p class="timeline-text flex">
-                  Front-End (React) Developer at  <span><a class="company-link" href="https://www.remza.com" target="_blank">Remza</a></span>
-                </p>
-              </li>
-            </ol>
-          </section>
+              <!-- <span>Aug-2024 — Sep-2024</span> -->
+              <span>Aug-2024 — Present</span>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+              <p class="timeline-text flex">
+                Front-End (React) Developer at <span><a class="company-link" href="https://www.remza.com"
+                    target="_blank">Remza</a></span>
+              </p>
+            </li>
+          </ol>
+        </section>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <img src="./assets/images/skills/HTML.svg" width="50" alt="" />
-                <h5 class="h5">HTML</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/CSS.svg" width="50" alt="" />
-                <h5 class="h5">CSS</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/Scss.svg" width="50" alt="" />
-                <h5 class="h5">SCSS</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/tailwind.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">TailwindCss</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/bootstrap.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Bootstrap</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/js.svg" width="50" alt="" />
-                <h5 class="h5">JS</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/ts.svg" width="50" alt="" />
-                <h5 class="h5">TS</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/jquery.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">JQuery</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/react.svg" width="50" alt="" />
-                <h5 class="h5">React</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/redux.svg" width="50" alt="" />
-                <h5 class="h5">Redux</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/next.svg" width="50" alt="" />
-                <h5 class="h5">Next</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/node.svg" width="50" alt="" />
-                <h5 class="h5">Node</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/express.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Express</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/nest.svg" width="50" alt="" />
-                <h5 class="h5">Nest</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/mongoose.png"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Mongoose</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/mongodb.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Mongodb</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/sequilize.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Sequelize</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/mysql.svg" width="50" alt="" />
-                <h5 class="h5">MySql</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/graphQl.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">GraphQl</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/socket.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Socket.IO</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/figma.svg" width="50" alt="" />
-                <h5 class="h5">Figma</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/npm.svg" width="50" alt="" />
-                <h5 class="h5">Npm</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/yarn.svg" width="50" alt="" />
-                <h5 class="h5">Yarn</h5>
-              </li>
-              <li class="skills-item">
-                <img src="./assets/images/skills/git.svg" width="50" alt="" />
-                <h5 class="h5">Git</h5>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="./assets/images/skills/github.svg"
-                  width="50"
-                  alt=""
-                />
-                <h5 class="h5">Github</h5>
-              </li>
-            </ul>
-          </section>
-        </article>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-        <!--
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <img src="./assets/images/skills/HTML.svg" width="50" alt="" />
+              <h5 class="h5">HTML</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/CSS.svg" width="50" alt="" />
+              <h5 class="h5">CSS</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/Scss.svg" width="50" alt="" />
+              <h5 class="h5">SCSS</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/tailwind.svg" width="50" alt="" />
+              <h5 class="h5">TailwindCss</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/bootstrap.svg" width="50" alt="" />
+              <h5 class="h5">Bootstrap</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/js.svg" width="50" alt="" />
+              <h5 class="h5">JS</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/ts.svg" width="50" alt="" />
+              <h5 class="h5">TS</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/jquery.svg" width="50" alt="" />
+              <h5 class="h5">JQuery</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/react.svg" width="50" alt="" />
+              <h5 class="h5">React</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/redux.svg" width="50" alt="" />
+              <h5 class="h5">Redux</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/next.svg" width="50" alt="" />
+              <h5 class="h5">Next</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/node.svg" width="50" alt="" />
+              <h5 class="h5">Node</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/express.svg" width="50" alt="" />
+              <h5 class="h5">Express</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/nest.svg" width="50" alt="" />
+              <h5 class="h5">Nest</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/mongoose.png" width="50" alt="" />
+              <h5 class="h5">Mongoose</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/mongodb.svg" width="50" alt="" />
+              <h5 class="h5">Mongodb</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/sequilize.svg" width="50" alt="" />
+              <h5 class="h5">Sequelize</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/mysql.svg" width="50" alt="" />
+              <h5 class="h5">MySql</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/graphQl.svg" width="50" alt="" />
+              <h5 class="h5">GraphQl</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/socket.svg" width="50" alt="" />
+              <h5 class="h5">Socket.IO</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/figma.svg" width="50" alt="" />
+              <h5 class="h5">Figma</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/npm.svg" width="50" alt="" />
+              <h5 class="h5">Npm</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/yarn.svg" width="50" alt="" />
+              <h5 class="h5">Yarn</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/git.svg" width="50" alt="" />
+              <h5 class="h5">Git</h5>
+            </li>
+            <li class="skills-item">
+              <img src="./assets/images/skills/github.svg" width="50" alt="" />
+              <h5 class="h5">Github</h5>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Full Stack</button>
-              </li>
+            <li class="filter-item">
+              <button data-filter-btn>Full Stack</button>
+            </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Front End</button>
-              </li>
-              <!-- <li class="filter-item">
+            <li class="filter-item">
+              <button data-filter-btn>Front End</button>
+            </li>
+            <!-- <li class="filter-item">
                 <button data-filter-btn>Mobile Applications</button>
               </li> -->
-            </ul>
+          </ul>
 
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
 
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
 
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
 
-                <li class="select-item">
-                  <button data-select-item>Full Stack</button>
-                </li>
+              <li class="select-item">
+                <button data-select-item>Full Stack</button>
+              </li>
 
-                <li class="select-item">
-                  <button data-select-item>Front End</button>
-                </li>
+              <li class="select-item">
+                <button data-select-item>Front End</button>
+              </li>
 
-                <!-- <li class="select-item">
+              <!-- <li class="select-item">
                   <button data-select-item>Mobile Applications</button>
                 </li> -->
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="https://ecommerce-fe-mohamedsaber.vercel.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/ecommerce.jpeg"
-                      alt="E-commerce"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">E-commerce</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://weoryx.vercel.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/espoir.png"
-                      alt="Landing Page"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Landing Page</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/pos.png"
-                      alt="POS System"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">POS System</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/pos-dash.png"
-                      alt="POS Dashboard"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">POS Dashboard</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/dental-landing.png"
-                      alt="Dental Landing Page"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Dental Landing Page</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/shop-system.png"
-                      alt="Shop-System"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Shop System</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="https://clinic-system-rosy.vercel.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/dental-dashboard.png"
-                      alt="Dental Dashboard"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Dental Dashboard</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/landing-2.png"
-                      alt="Landing Page"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Landing Page</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/landing-1.png"
-                      alt="Landing Page"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Landing Page</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/tracker.png"
-                      alt="Tracker"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Tracker (Graduation Project)</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="#"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      style="width: 100%; height: 100%;"
-                      src="./assets/images/projects/tracker-dash.png"
-                      alt="Tracker Dashboard"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Tracker Dashboard (Graduation Project)</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="full stack"
-              >
-                <a
-                  href="https://mohamed-saber-portfolio.onrender.com/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/old-portfolio.png"
-                      alt="Portfolio"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Portfolio</h3>
-
-                  <p class="project-category">Full Stack</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a href="https://securetech.onrender.com/" target="_blank\">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/secure_tech.png"
-                      alt="SecureTech"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">SecureTech</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://games-sooty-three.vercel.app/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/matrix.png"
-                      alt="Matrix"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Matrix</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/Movies-TVs-Project/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/filmoon.jpeg"
-                      alt="Movies"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Filmoon Movies</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/Weather-App/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/weather.jpeg"
-                      alt="Weather"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Weather</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://restaurant-liart-two.vercel.app/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/foodie.png"
-                      alt="Restaurant"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Restaurant</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/Games-Project-by-React/#/home"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/gameover.jpeg"
-                      alt="GameOver"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">GameOver</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/FoodsAPP/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/foods.jpeg"
-                      alt="Recipes"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Recipes</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/To-Do-App/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/todolist.jpeg"
-                      alt="ToDO List"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">ToDO List</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/Youtube-Video-Downloader/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/downtube.jpeg"
-                      alt="DownTube"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">DownTube</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="front end"
-              >
-                <a
-                  href="https://mohamedsaber55.github.io/Jquery-App/"
-                  target="_blank\"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/projects/egyptionparty.jpeg"
-                      alt="Jquery Project"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Jquery Project</h3>
-
-                  <p class="project-category">Front End</p>
-                </a>
-              </li>
             </ul>
-          </section>
-        </article>
+          </div>
 
-        <!--
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="https://shop-system-saber.netlify.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/shop.png" alt="Shop-System"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Shop System ( Freelancing )</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="https://ecommerce-fe-mohamedsaber.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/ecommerce.jpeg" alt="E-commerce" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">E-commerce</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://weoryx.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/espoir.png" alt="Landing Page"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Landing Page</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/pos.png" alt="POS System"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">POS System</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/pos-dash.png"
+                    alt="POS Dashboard" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">POS Dashboard</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/dental-landing.png"
+                    alt="Dental Landing Page" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Dental Landing Page</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="https://clinic-system-rosy.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/dental-dashboard.png"
+                    alt="Dental Dashboard" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Dental Dashboard</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/landing-2.png"
+                    alt="Landing Page" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Landing Page</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/landing-1.png"
+                    alt="Landing Page" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Landing Page</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/tracker.png" alt="Tracker"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Tracker (Graduation Project)</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img style="width: 100%; height: 100%;" src="./assets/images/projects/tracker-dash.png"
+                    alt="Tracker Dashboard" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Tracker Dashboard (Graduation Project)</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="https://mohamed-saber-portfolio.onrender.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/old-portfolio.png" alt="Portfolio" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://securetech.onrender.com/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/secure_tech.png" alt="SecureTech" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">SecureTech ( Freelancing )</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://games-sooty-three.vercel.app/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/matrix.png" alt="Matrix" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Matrix</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/Movies-TVs-Project/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/filmoon.jpeg" alt="Movies" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Filmoon Movies</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/Weather-App/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/weather.jpeg" alt="Weather" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Weather</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://restaurant-liart-two.vercel.app/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/foodie.png" alt="Restaurant" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Restaurant</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/Games-Project-by-React/#/home" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/gameover.jpeg" alt="GameOver" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">GameOver</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/FoodsAPP/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/foods.jpeg" alt="Recipes" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Recipes</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/To-Do-App/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/todolist.jpeg" alt="ToDO List" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">ToDO List</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/Youtube-Video-Downloader/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/downtube.jpeg" alt="DownTube" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">DownTube</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="front end">
+              <a href="https://mohamedsaber55.github.io/Jquery-App/" target="_blank\">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/egyptionparty.jpeg" alt="Jquery Project" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Jquery Project</h3>
+
+                <p class="project-category">Front End</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #CONTACT
       -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111611.20056714558!2d31.184387146329726!3d29.051016970080422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145a25e1064f72af%3A0xbacfa92a1eed60ea!2z2KjZhtmKINiz2YjZitmB2Iwg2YLYs9mFINio2YbZiiDYs9mI2YrZgdiMINmF2LHZg9iyINio2YbZiSDYs9mI2YrZgdiMINmF2K3Yp9mB2LjYqSDYqNmG2Yog2LPZiNmK2YE!5e0!3m2!1sar!2seg!4v1704070066841!5m2!1sar!2seg"
-                width="400"
-                height="300"
-                loading="lazy"
-              ></iframe>
-            </figure>
-          </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111611.20056714558!2d31.184387146329726!3d29.051016970080422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145a25e1064f72af%3A0xbacfa92a1eed60ea!2z2KjZhtmKINiz2YjZitmB2Iwg2YLYs9mFINio2YbZiiDYs9mI2YrZgdiMINmF2LHZg9iyINio2YbZiSDYs9mI2YrZgdiMINmF2K3Yp9mB2LjYqSDYqNmG2Yog2LPZiNmK2YE!5e0!3m2!1sar!2seg!4v1704070066841!5m2!1sar!2seg"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <form class="form" data-form>
-              <div class="input-wrapper">
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-input"
-                  placeholder="Full name"
-                  required
-                  data-form-input
-                />
+          <form class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
-                <input
-                  type="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="Email address"
-                  required
-                  data-form-input
-                />
-              </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
 
-              <textarea
-                name="message"
-                class="form-input"
-                placeholder="Your Message"
-                required
-                data-form-input
-              ></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
 
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
