@@ -157,3 +157,69 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// // Select modal elements
+// const projectModal = document.querySelector("[data-modal]");
+// const modalCloseBtnModal = document.querySelector("[data-modal-close]");
+// const overlayModal = document.querySelector("[data-overlay]");
+// const modalTitleModal = document.querySelector("[data-modal-title]");
+// const modalCategory = document.querySelector("[data-modal-category]");
+// const modalImage = document.querySelector("[data-modal-image]");
+// const modalDescription = document.querySelector("[data-modal-description]");
+// const modalTechnologies = document.querySelector("[data-modal-technologies]");
+// const modalLink = document.querySelector("[data-modal-link]");
+
+// // Function to toggle modal visibility
+// const toggleModal = () => {
+//   projectModal.classList.toggle("active");
+//   overlayModal.classList.toggle("active");
+// };
+
+// // Add click event to all project items
+// document.querySelectorAll(".project-item").forEach((item) => {
+//   item.addEventListener("click", (e) => {
+//     e.preventDefault();
+
+//     // Get project details
+//     const title = item.querySelector(".project-title").innerText;
+//     const category = item.querySelector(".project-category").innerText;
+//     const imageSrc = item.querySelector("img").src;
+//     const livePreviewLink = item.querySelector("a").href;
+
+//     // Get additional details from data attributes
+//     const description = item.dataset.description;
+//     const technologies = item.dataset.technologies.split(","); // Split technologies into an array
+
+//     // Populate modal with project details
+//     modalTitleModal.innerText = title;
+//     modalCategory.innerText = category;
+//     modalImage.src = imageSrc;
+//     modalDescription.innerText = description;
+
+//     // Clear existing technologies list
+//     modalTechnologies.innerHTML = "";
+
+//     // Populate technologies as a list
+//     technologies.forEach((tech) => {
+//       const li = document.createElement("li");
+//       li.textContent = tech.trim(); // Remove extra spaces
+//       modalTechnologies.appendChild(li);
+//     });
+
+//     modalLink.href = livePreviewLink;
+
+//     // Show the modal
+//     toggleModal();
+//   });
+// });
+
+// // Close modal when clicking the close button
+// modalCloseBtnModal.addEventListener("click", toggleModal);
+
+// // Close modal when clicking outside the modal (on the overlay)
+// overlayModal.addEventListener("click", toggleModal);
+
+// // Prevent modal from closing when clicking inside the modal content
+// document.querySelector(".modal-content").addEventListener("click", (e) => {
+//   e.stopPropagation(); // Stop the click event from propagating to the overlay
+// });
